@@ -278,6 +278,9 @@ address {
 .box-logo-text {
   text-align: center;
 }
+.box-logo-text p {
+  text-align: start;
+}
 
 .logo-footer {
   margin-bottom: 0;
@@ -580,7 +583,7 @@ address {
 }
 .menu-window {
   width: 320px;
-  min-height: 640px;
+  min-height: 100%;
   padding: 72px 24px 40px 16px;
   margin: 0 auto;
   background-color: #fff;
