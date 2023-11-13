@@ -25,46 +25,21 @@
     />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-
   <body>
-    <!-- Header  -->
+    <!-- Header -->
     <header class="header-menu">
       <div class="container-header container">
-        <nav class="nav-box">
-          <a class="link-logo" href="./index.html"
-            >Web<span class="link-logo-studio-header">Studio</span></a
-          >
-          <ul class="navigation">
-            <li>
-              <a class="link link-studio current-page-link" href="./index.html"
-                >Studio</a
-              >
-            </li>
-            <li>
-              <a class="link link-portfolio" href="">Portfolio</a>
-            </li>
-            <li>
-              <a class="link link-contacts" href="">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <address class="contacts">
-          <ul class="address-nav">
-            <li>
-              <a class="link-address" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="link-address" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
+        <a class="link-logo" href="./index.html"
+          >Web<span class="link-logo-studio-header">Studio</span></a
+        >
+        <button class="btn-menu" type="button">
+          <svg class="open-btn-menu" width="24" height="24">
+            <use href="./images/icons.svg#icon-lines-button-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
-    <!-- Main content -->
+
     <main>
       <!-- Hero section -->
       <section class="hero-section">
@@ -79,11 +54,6 @@
           <h2 class="features-title visually-hidden">Our Features</h2>
           <ul class="features-box">
             <li class="features-item">
-              <div class="icon-box">
-                <svg class="icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-antenna-1"></use>
-                </svg>
-              </div>
               <h3 class="features">Strategy</h3>
               <p class="features-text">
                 Our goal is to identify the business problem to walk away with
@@ -91,11 +61,6 @@
               </p>
             </li>
             <li class="features-item">
-              <div class="icon-box">
-                <svg class="icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-clock-1"></use>
-                </svg>
-              </div>
               <h3 class="features">Punctuality</h3>
               <p class="features-text">
                 Bring the key message to the brand's audience for the best price
@@ -103,11 +68,6 @@
               </p>
             </li>
             <li class="features-item">
-              <div class="icon-box">
-                <svg class="icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-diagram-1"></use>
-                </svg>
-              </div>
               <h3 class="features">Diligence</h3>
               <p class="features-text">
                 Research and confirm brands that present the strongest digital
@@ -115,11 +75,6 @@
               </p>
             </li>
             <li class="features-item">
-              <div class="icon-box">
-                <svg class="icon" width="64" height="64">
-                  <use href="./images/icons.svg#icon-astronaut-1"></use>
-                </svg>
-              </div>
               <h3 class="features">Technologies</h3>
               <p class="features-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -129,9 +84,9 @@
           </ul>
         </div>
       </section>
-      <!-- Team section -->
-      <section class="section-our-team">
-        <div class="container">
+      <!-- Section team -->
+      <section class="section-our-team section">
+        <div class="container team-container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-box-items">
             <li class="team-member-card">
@@ -385,120 +340,78 @@
           </ul>
         </div>
       </section>
-      <!-- Portfolio section -->
+      <!-- Portfolio section-->
       <section class="section">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-list-item">
-              <div class="portfolio-pic">
-                <img
-                  src="./images/img00.jpg"
-                  alt="Design of Bankapp"
-                  width="360"
-                  height="300"
-                />
-                <p class="paragraph">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
+              <img
+                src="./images/img00.jpg"
+                alt="Design of Bankapp"
+                width="288"
+                height="280"
+              />
               <div class="text-portfolio-list-item">
                 <h3 class="portfolio-service">Banking App</h3>
                 <p class="service-name">App</p>
               </div>
             </li>
             <li class="portfolio-list-item">
-              <div class="portfolio-pic">
-                <img
-                  src="./images/img11.jpg"
-                  alt="Phone scannig QR-code"
-                  width="360"
-                  height="300"
-                />
-                <p class="paragraph">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
+              <img
+                src="./images/img11.jpg"
+                alt="Phone scanning QR-code"
+                width="288"
+                height="280"
+              />
               <div class="text-portfolio-list-item">
                 <h3 class="portfolio-service">Cashless Payment</h3>
                 <p class="service-name">Marketing</p>
               </div>
             </li>
             <li class="portfolio-list-item">
-              <div class="portfolio-pic">
-                <img
-                  src="./images/img22.jpg"
-                  alt="Meditation App on Notebook and Phone "
-                  width="360"
-                  height="300"
-                />
-                <p class="paragraph">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
+              <img
+                src="./images/img22.jpg"
+                alt="Meditation App on Notebook and Phone "
+                width="288"
+                height="280"
+              />
               <div class="text-portfolio-list-item">
                 <h3 class="portfolio-service">Meditation App</h3>
                 <p class="service-name">App</p>
               </div>
             </li>
             <li class="portfolio-list-item">
-              <div class="portfolio-pic">
-                <img
-                  src="./images/img33.jpg"
-                  alt="Car steering wheel in taxi"
-                  width="360"
-                  height="300"
-                />
-                <p class="paragraph">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
+              <img
+                src="./images/img33.jpg"
+                alt="Car steering wheel in taxi"
+                width="288"
+                height="280"
+              />
               <div class="text-portfolio-list-item">
                 <h3 class="portfolio-service">Taxi Service</h3>
                 <p class="service-name">Marketing</p>
               </div>
             </li>
             <li class="portfolio-list-item">
-              <div class="portfolio-pic">
-                <img
-                  src="./images/img44.jpg"
-                  alt="Variaty of screen illustration"
-                  width="360"
-                  height="300"
-                />
-                <p class="paragraph">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
+              <img
+                src="./images/img44.jpg"
+                alt="Variety of screen illustration"
+                width="288"
+                height="280"
+              />
               <div class="text-portfolio-list-item">
                 <h3 class="portfolio-service">Screen Illustrations</h3>
                 <p class="service-name">Design</p>
               </div>
             </li>
             <li class="portfolio-list-item">
-              <div class="portfolio-pic">
-                <img
-                  src="./images/img55.jpg"
-                  alt="Blond girl in glasses handing phone"
-                  width="360"
-                  height="300"
-                />
-                <p class="paragraph">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
+              <img
+                src="./images/img55.jpg"
+                alt="Blond girl in glasses handing phone"
+                width="288"
+                height="280"
+              />
               <div class="text-portfolio-list-item">
                 <h3 class="portfolio-service">Online Courses</h3>
                 <p class="service-name">Marketing</p>
@@ -508,7 +421,7 @@
         </div>
       </section>
     </main>
-    <!-- Footer section-->
+    <!-- Footer -->
     <footer class="footer">
       <div class="container container-footer">
         <div class="box-logo-text">
@@ -590,8 +503,8 @@
         </div>
       </div>
     </footer>
-    <!-- Modal window -->
-    <div class="backdrop is-open">
+    <!--
+    <div class="backdrop">
       <div class="modal-window">
         <button class="btn-close-modal" type="button">
           <svg class="icon-btn-close" width="8" height="8">
@@ -599,7 +512,7 @@
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
-        <!-- NAme -->
+        
         <form class="modal-window-form">
           <div class="form-box">
             <label class="form-box-label" for="user-name">Name </label>
@@ -616,7 +529,7 @@
             </div>
           </div>
 
-          <!-- phone -->
+          
           <div class="form-box">
             <label class="form-box-label" for="user-phone">Phone</label>
             <div class="icon-pic">
@@ -632,7 +545,7 @@
             </div>
           </div>
 
-          <!-- email -->
+          
           <div class="form-box">
             <label class="form-box-label" for="user-email">Email</label>
             <div class="icon-pic">
@@ -648,7 +561,7 @@
             </div>
           </div>
 
-          <!-- comment -->
+          
           <div class="form-box comment-box">
             <label class="form-box-label" for="user-comment">Comment</label>
             <textarea
@@ -661,7 +574,7 @@
             </textarea>
           </div>
 
-          <!--Checkbox  -->
+          
           <div class="checkbox-box">
             <input
               class="visually-hidden input-checkbox"
@@ -679,10 +592,44 @@
               <a class="privacy-link" href="">Privacy Policy</a></label
             >
           </div>
-          <!-- button -->
+         
           <button class="btn-send-modal" type="submit">Send</button>
         </form>
       </div>
     </div>
+  </body>
+</html>
+
+
+
+
+        <ul class="navigation">
+            <li>
+              <a class="link link-studio current-page-link" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li>
+              <a class="link link-portfolio" href="">Portfolio</a>
+            </li>
+            <li>
+              <a class="link link-contacts" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="contacts">
+          <ul class="address-nav">
+            <li>
+              <a class="link-address" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="link-address" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address> -->
   </body>
 </html>
