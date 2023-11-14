@@ -26,6 +26,7 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
 }
 ul,
 ol {
@@ -34,6 +35,9 @@ ol {
 address {
   font-style: normal;
 }
+
+/* mobile version */
+/* styles section header */
 .container {
   max-width: 320px;
   padding: 0 16px;
@@ -43,8 +47,6 @@ address {
   padding-top: 96px;
   padding-bottom: 96px;
 }
-/* mobile version */
-/* styles section header */
 .header-menu {
   border-bottom: 1px solid #e7e9fc;
   background-color: #fff;
@@ -96,7 +98,7 @@ address {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/office-table.jpg);
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -640,4 +642,97 @@ address {
 }
 .icon-menu {
   gap: 40px;
+}
+
+/* tablet styles */
+@media (min-resolution: 192dpi) {
+  .hero-section {
+    background-image: url('../images/people-office@2x.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .hero-section {
+    padding: 112px 136px;
+  }
+  .title {
+    font-size: 56px;
+  }
+  .features-box {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .features-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .features {
+    text-align: start;
+  }
+  .features-item:nth-child(1),
+  .features-item:nth-child(2) {
+    margin-bottom: 48px;
+  }
+  .team-container {
+    padding: 0 108px;
+  }
+  .team-box-items {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .team-member-card {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .team-member-card:nth-child(1),
+  .team-member-card:nth-child(2) {
+    margin-bottom: 40px;
+  }
+  .portfolio-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .portfolio-list-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .portfolio-list-item:nth-child(1),
+  .portfolio-list-item:nth-child(2) {
+    margin-bottom: 48px;
+  }
+  .container-footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .footer-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .logo-footer {
+    margin-top: 0;
+  }
+  .form-subscribe {
+    flex-direction: row;
+    gap: 24px;
+  }
+  .footer-subscribe-text {
+    text-align: start;
+  }
+  .subscribe-input {
+    width: 264px;
+  }
+  .box-logo-text {
+    text-align: start;
+    width: 264px;
+  }
+  .soc-contacts {
+    align-items: flex-start;
+  }
 }
