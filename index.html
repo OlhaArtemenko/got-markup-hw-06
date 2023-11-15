@@ -37,9 +37,100 @@
             <use href="./images/icons.svg#icon-lines-button-menu"></use>
           </svg>
         </button>
+        <!-- Menu window -->
+        <div class="menu-window">
+          <button class="btn-close-modal btn-close-menu" type="button">
+            <svg class="icon-btn-close" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <nav>
+            <ul class="navigation">
+              <li>
+                <a
+                  class="link link-studio current-page-link"
+                  href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li>
+                <a class="link link-portfolio" href="">Portfolio</a>
+              </li>
+              <li>
+                <a class="link link-contacts" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="contacts">
+            <ul class="address-nav">
+              <li>
+                <a class="link-address" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a class="link-address" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="soc-contacts">
+            <p class="title-soclist-footer">Social media</p>
+            <ul class="icon-soclink-list-footer icon-menu">
+              <li class="icon-soclink">
+                <a
+                  class="link-icon"
+                  href=""
+                  target="_blank"
+                  aria-label="instagram"
+                >
+                  <svg class="icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="icon-soclink">
+                <a
+                  class="link-icon"
+                  href=""
+                  target="_blank"
+                  aria-label="twitter"
+                >
+                  <svg class="icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="icon-soclink">
+                <a
+                  class="link-icon"
+                  href=""
+                  target="_blank"
+                  aria-label="facebook"
+                >
+                  <svg class="icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="icon-soclink">
+                <a
+                  class="link-icon"
+                  href=""
+                  target="_blank"
+                  aria-label="linkedin"
+                >
+                  <svg class="icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
-
     <main>
       <!-- Hero section -->
       <section class="hero-section">
@@ -94,7 +185,6 @@
                 srcset="./images/team/mark.jpg, ./images/team/mark@2x.jpg"
                 src="./images/team/mark.jpg"
                 alt="Photo of Mark Guerrero"
-
               />
               <div class="text-team-member-card">
                 <h3 class="team-member">Mark Guerrero</h3>
@@ -153,10 +243,9 @@
             </li>
             <li class="team-member-card">
               <img
-              srcset="./images/team/tom.jpg, ./images/team/tom@2x.jpg"
+                srcset="./images/team/tom.jpg, ./images/team/tom@2x.jpg"
                 src="./images/team/tom.jpg"
                 alt="Photo of Tom Ford"
-
               />
               <div class="text-team-member-card">
                 <h3 class="team-member">Tom Ford</h3>
@@ -215,10 +304,9 @@
             </li>
             <li class="team-member-card">
               <img
-              srcset="./images/team/camila.jpg, ./images/team/camila@2x.jpg"
+                srcset="./images/team/camila.jpg, ./images/team/camila@2x.jpg"
                 src="./images/team/camila.jpg"
                 alt="Photo of Camila Garcia"
-
               />
               <div class="text-team-member-card">
                 <h3 class="team-member">Camila Garcia</h3>
@@ -277,10 +365,9 @@
             </li>
             <li class="team-member-card">
               <img
-              srcset="./images/team/daniel.jpg, ./images/team/daniel@2x.jpg"
+                srcset="./images/team/daniel.jpg, ./images/team/daniel@2x.jpg"
                 src="./images/team/daniel.jpg"
                 alt="Photo of Daniel Wilson"
-
               />
               <div class="text-team-member-card">
                 <h3 class="team-member">Daniel Wilson</h3>
@@ -347,10 +434,12 @@
           <ul class="portfolio-list">
             <li class="portfolio-list-item">
               <img
-              srcset="./images/portfolio/bankingapp.jpg, /images/portfolio/bankingapp@2x.jpg"
+                srcset="
+                  ./images/portfolio/bankingapp.jpg,
+                  /images/portfolio/bankingapp@2x.jpg
+                "
                 src="./images/portfolio/bankingapp.jpg"
                 alt="Design of Bankapp"
-
               />
               <div class="text-portfolio-list-item">
                 <h3 class="portfolio-service">Banking App</h3>
@@ -359,10 +448,12 @@
             </li>
             <li class="portfolio-list-item">
               <img
-              srcset="./images/portfolio/payment.jpg, ./images/portfolio/payment@2x.jpg"
+                srcset="
+                  ./images/portfolio/payment.jpg,
+                  ./images/portfolio/payment@2x.jpg
+                "
                 src="./images/portfolio/payment.jpg"
                 alt="Phone scanning QR-code"
-
               />
               <div class="text-portfolio-list-item">
                 <h3 class="portfolio-service">Cashless Payment</h3>
@@ -371,10 +462,12 @@
             </li>
             <li class="portfolio-list-item">
               <img
-              srcset="./images/portfolio/meditationapp.jpg, ./images/portfolio/meditationapp@2x.jpg"
+                srcset="
+                  ./images/portfolio/meditationapp.jpg,
+                  ./images/portfolio/meditationapp@2x.jpg
+                "
                 src="./images/portfolio/meditationapp.jpg"
                 alt="Meditation App on Notebook and Phone "
-
               />
               <div class="text-portfolio-list-item">
                 <h3 class="portfolio-service">Meditation App</h3>
@@ -383,10 +476,12 @@
             </li>
             <li class="portfolio-list-item">
               <img
-              srcset="./images/portfolio/taxi.jpg, ./images/portfolio/taxi@2x.jpg"
+                srcset="
+                  ./images/portfolio/taxi.jpg,
+                  ./images/portfolio/taxi@2x.jpg
+                "
                 src="./images/portfolio/taxi.jpg"
                 alt="Car steering wheel in taxi"
-
               />
               <div class="text-portfolio-list-item">
                 <h3 class="portfolio-service">Taxi Service</h3>
@@ -395,10 +490,12 @@
             </li>
             <li class="portfolio-list-item">
               <img
-              srcset="./images/portfolio/screenillustration.jpg, ./images/portfolio/screenillustration@2x.jpg"
+                srcset="
+                  ./images/portfolio/screenillustration.jpg,
+                  ./images/portfolio/screenillustration@2x.jpg
+                "
                 src="./images/portfolio/screenillustration.jpg"
                 alt="Variety of screen illustration"
-
               />
               <div class="text-portfolio-list-item">
                 <h3 class="portfolio-service">Screen Illustrations</h3>
@@ -407,10 +504,12 @@
             </li>
             <li class="portfolio-list-item">
               <img
-              srcset="./images/portfolio/onlinecurses.jpg, ./images/portfolio/onlinecurses@2x.jpg"
+                srcset="
+                  ./images/portfolio/onlinecurses.jpg,
+                  ./images/portfolio/onlinecurses@2x.jpg
+                "
                 src="./images/portfolio/onlinecurses.jpg"
                 alt="Blond girl in glasses handing phone"
-
               />
               <div class="text-portfolio-list-item">
                 <h3 class="portfolio-service">Online Courses</h3>
@@ -503,91 +602,7 @@
         </div>
       </div>
     </footer>
-    <!-- Menu window -->
-<div class="backdrop-menu">
-    <div class="menu-window">
-      <button class="btn-close-modal btn-close-menu" type="button">
-        <svg class="icon-btn-close" width="8" height="8">
-          <use href="./images/icons.svg#icon-close-black"></use>
-        </svg>
-      </button>
-      <ul class="navigation">
-        <li>
-          <a class="link link-studio current-page-link" href="./index.html"
-                >Studio</a>
-        </li>
-        <li>
-          <a class="link link-portfolio" href="">Portfolio</a>
-        </li>
-        <li>
-          <a class="link link-contacts" href="">Contacts</a>
-        </li>
-      </ul>
-      </nav>
-      <address class="contacts">
-        <ul class="address-nav">
-          <li>
-            <a class="link-address" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-          </li>
-          <li>
-            <a class="link-address" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-          </li>
-        </ul>
-      </address>
-      <div class="soc-contacts">
-        <p class="title-soclist-footer">Social media</p>
-          <ul class="icon-soclink-list-footer icon-menu">
-            <li class="icon-soclink">
-              <a
-                class="link-icon"
-                href=""
-                target="_blank"
-                aria-label="instagram"
-              >
-                <svg class="icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram-2"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="icon-soclink">
-              <a class="link-icon" href="" target="_blank" aria-label="twitter">
-                <svg class="icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="icon-soclink">
-              <a
-                class="link-icon"
-                href=""
-                target="_blank"
-                aria-label="facebook"
-              >
-                <svg class="icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="icon-soclink">
-              <a
-                class="link-icon"
-                href=""
-                target="_blank"
-                aria-label="linkedin"
-              >
-                <svg class="icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin-1"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-      </div>
-    </div>
-</div>
+
     <!-- Modal window  -->
     <div class="backdrop">
       <div class="modal-window">
@@ -682,4 +697,3 @@
     </div>
   </body>
 </html>
-
