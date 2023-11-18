@@ -779,7 +779,7 @@ address {
     flex-basis: calc((100% - 24px) / 2);
   }
   .logo-footer {
-    margin-top: 0;
+    padding-top: 0;
   }
   .form-subscribe {
     flex-direction: row;
